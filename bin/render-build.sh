@@ -2,6 +2,8 @@
 set -o errexit
 
 bundle install
+chmod +x bin/rails
+
 RAILS_ENV=production bin/rails assets:precompile
 
 bundle exec rails assets:precompile
