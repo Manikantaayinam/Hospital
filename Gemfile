@@ -32,13 +32,13 @@ gem "redis", ">= 4.0.1"
 #new added gems
 gem 'activeadmin'
 gem 'devise'
-gem 'sassc'
+gem 'sassc-rails'
 # Use Json Web Token (JWT) for token based authentication
 gem 'jwt'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'pry'
-gem 'pry-rails'
+
 
 
 
